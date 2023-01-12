@@ -13,33 +13,19 @@ h1, h2, h3, h4, h5, h6 { margin: 0; }
     max-width: 1170px;
 }
 
-section {
-    display: flex;
-}
+section { display: flex; }
 
-.flex {
-    display: flex;
-}
+.flex { display: flex; }
 
-.flex-column {
-    flex-direction: column;
-}
+.flex-column { flex-direction: column; }
 
-.flex-one {
-    flex: 1;
-}
+.flex-one { flex: 1; }
 
-.align-center {
-    align-items: center;
-}
+.align-center { align-items: center; }
 
-.center {
-    justify-content: center;
-}
+.center { justify-content: center; }
 
-.space-between {
-    justify-content: space-between;
-}
+.space-between { justify-content: space-between; }
 
 .btn {
     cursor: pointer;
@@ -83,4 +69,48 @@ section {
 .text-primary {
     font-size: 16px;
     color: #364147;
+}
+
+.header-nav { border-bottom: 1px #a0a0a0; }
+
+.brand {
+    size: 170px 80px;
+    margin-left: -15px;
+    margin-right: 60px;
+}
+
+.logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.search-box {
+    padding: 6px 12px;
+    border: 1px full #a0a0a0;
+}
+
+.search-button {
+    background-color: #a0a0a0;
+    color: #ffffff;
+    size: 100px 30px;
+    border: 0;
+    padding: 0;
+}
+
+.nav-list {
+    padding-left: 0;
+    width: 575px;
+    margin-top: 10px;
+}
+
+.profile { margin: auto; }
+
+.account {
+    padding: 15px;
+    font-size: 18px;
+    color: #364147;
+}
+
+.profile-pic {
+    size: 60px 60px;
 }
