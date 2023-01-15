@@ -139,7 +139,7 @@ section { display: flex; }
     background-image: url("../img/hero.jpg");
     height: 400px;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     text-transform: uppercase;
 }
 
@@ -160,7 +160,7 @@ section { display: flex; }
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 21px;
-    margin: 0 0 0 10px;
+    margin: 0 0 10px;
 }
 
 .banner {
@@ -184,7 +184,7 @@ section { display: flex; }
 .banner-text > div:last-child {
     font-size: 16px;
     font-weight: 400;
-    margin: 5px;
+    margin-top: 5px;
 }
 
 .category {
